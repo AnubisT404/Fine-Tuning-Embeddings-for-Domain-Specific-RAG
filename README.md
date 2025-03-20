@@ -17,11 +17,4 @@ This project fine-tunes sentence embeddings to improve retrieval and generation 
 | BAAI/bge-small-en   | 0.69  | 0.79  | 0.65 | 0.70 | 0.77 |  
 | **Fine-Tuned Model** | **0.74**  | **0.86** | **0.72** | **0.78** | **0.83** |  
 
-The fine-tuned model outperformed SOTA by **5-6%** in retrieval accuracy.  
-
-## **Installation**  
-```bash  
-pip install llama-index-llms-openai llama-index-embeddings-openai llama-index-finetuning  
-pip install llama-index-readers-file llama-index-embeddings-huggingface  
-pip install sentence-transformers pandas tqdm  
-```
+The fine-tuned model outperformed SOTA by **5-6%** in retrieval accuracy.
